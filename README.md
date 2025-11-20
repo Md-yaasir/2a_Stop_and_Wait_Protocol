@@ -13,7 +13,7 @@ To write a python program to perform stop and wait protocol
 Developed by : **MOHAMMED YAASIR Y**<br>
 Reg No : **212224040196**
 
-### Client
+### server.py
 ```python
 import socket
 s=socket.socket()
@@ -31,7 +31,7 @@ while True:
         c.close()
         break
 ```
-### Server
+### client.py
 ```python
 import socket
 s=socket.socket()
